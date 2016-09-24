@@ -25,10 +25,11 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = ">= 2.0"
 
-  gem.add_runtime_dependency "http_parser.rb", "~> 0.6.0"
-  gem.add_runtime_dependency "http-form_data", "~> 1.0.1"
-  gem.add_runtime_dependency "http-cookie",    "~> 1.0"
   gem.add_runtime_dependency "addressable",    "~> 2.3"
+  gem.add_runtime_dependency "http-cookie",    "~> 1.0"
+  gem.add_runtime_dependency "http-form_data", "~> 1.0.1"
+  gem.add_runtime_dependency "http_parser.rb", "~> 0.6.0"
+  gem.add_runtime_dependency "socketry",       ">= 0.2"
 
   gem.add_development_dependency "bundler", "~> 1.0"
 end
